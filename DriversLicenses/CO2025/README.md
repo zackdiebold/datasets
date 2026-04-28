@@ -1,4 +1,4 @@
-# Dataset: Utah Driving Priviledge Cards Issuance and Renewal Data
+# Dataset: Colorado SB251 License Issuance and Renewal Data
 
 ## Overview
 This dataset contains monthly issuance and renewal data for driver's licenses and renewals issued under Colorado SB 251 (The Colorado Road and Community Safety Act).
