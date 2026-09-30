@@ -131,12 +131,22 @@ Missing annual covariates remain `NA`. Missing source coverage is not recoded as
 
 ## Sources
 
-The panel draws on:
+The panel draws on the following sources:
 
-- U.S. Executive Office for Immigration Review administrative case and proceeding records
-- State DPC implementation dates
-- Bureau of Labor Statistics Local Area Unemployment Statistics, retrieved through FRED
-- U.S. Census Bureau American Community Survey
-- County-level Secure Communities policy data
-- County- and state-level 287(g) policy data
-- ICPSR county-level detainer and immigration-policy data
+- **EOIR administrative records:** U.S. Department of Justice, Executive Office for Immigration Review, FOIA Library and EOIR Case Data.  
+  [EOIR FOIA Library](https://www.justice.gov/eoir/foia-library-0)
+
+- **State DPC implementation dates:** National Conference of State Legislatures, *States Offering Driver’s Licenses to Immigrants*. The implementation dates in this panel were compiled from the effective dates reported by NCSL.  
+  [NCSL: States Offering Driver’s Licenses to Immigrants](https://www.ncsl.org/immigration/states-offering-drivers-licenses-to-immigrants)
+
+- **State unemployment:** U.S. Bureau of Labor Statistics Local Area Unemployment Statistics, retrieved through FRED, Federal Reserve Bank of St. Louis. The annual state unemployment series follow the pattern `LAUSTss0000000000003A`, where `ss` is the two-digit state FIPS code.  
+  [Example FRED series: Alabama](https://fred.stlouisfed.org/series/LAUST010000000000003A)
+
+- **Population and noncitizen measures:** U.S. Census Bureau American Community Survey state-level population and citizenship-status estimates.
+
+- **Secure Communities and 287(g) policy data:** replication materials for *Reconsideration of Secure Communities Rollout Reveals Preemptive Local-Federal Cooperation in Immigration Enforcement* by Vargas-Núñez et al.  
+  [Vargas-Núñez et al. replication materials](https://github.com/asadlasad/vargasnunezetal_2026_pnas)
+
+- **Detainer data:** Baumer, Eric P., and Min Xie. *Illegal Immigration, Immigration Enforcement Policies, and American Citizens' Victimization Risk, [United States], 2005-2015* (ICPSR 39329). County-level detainer data were aggregated to the state-year level for this project.  
+  [ICPSR 39329](https://www.icpsr.umich.edu/web/NACJD/studies/39329)  
+  DOI: `10.3886/ICPSR39329.v1`
